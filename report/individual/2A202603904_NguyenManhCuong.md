@@ -137,16 +137,16 @@ Xác định điểm đến (thời gian chưa đo)
 
 | Hoạt động | Tôi đã làm gì? | Kết quả / ảnh hưởng tới bài nhóm |
 |---|---|---|
-| Pitch Problem Card | | |
-| Phản biện bài của bạn khác | Câu hỏi tôi đã đặt: | |
-| Nhận phản biện | Câu hỏi tôi nhận được: | Tôi đã sửa gì: |
-| Gom cluster / cây OST | | |
-| Chọn candidate problem | | |
-| Kiểm chứng / research | | |
-| Quy trình nhóm | | |
-| Problem Statement | | |
-| Mức can thiệp AI | | |
-| Quyết định | | |
+| Pitch Problem Card | Thảo luận để chốt card | Đưa ra được Card hợp lí và đủ sự thú vị|
+| Phản biện bài của bạn khác | Câu hỏi tôi đã đặt: Vấn đề về quản lý mức chi tiêu như nào, sử dụng model AI ở đâu |Quản lý chi tiêu với các mục sản phầm và mỗi mục là một ngưỡng mà người dùng tự điều chỉnh. Nhưng chưa trả lời được bài toán sử dụng model AI ở đâu |
+| Nhận phản biện | Câu hỏi tôi nhận được: Hình thức phạt khi dùng quá ngưỡng chi tiêu | Tôi đã sửa gì: Tôi đã đề xuất thêm mô hình ML để dự đoán mức chi tiêu mỗi lần của sản phầm |
+| Gom cluster / cây OST |Tham gia thảo luận |Góp ý khi nhóm gom cluster và dựng cây OST |
+| Chọn candidate problem |phân tích các problem |Tìm ra cách xử lý cho các problem đó |
+| Kiểm chứng / research |tìm kiếm tài liệu liên quan, các sản phẩm tương tự |đưa ra một số ưu nhược điểm của các sản phẩm đó |
+| Quy trình nhóm |Viết mục 4.1 đến 4.3: sơ đồ Mermaid quy trình hiện tại (bottleneck bước 4 đến 6), quy trình tương lai (AI, Rule, HITL, quay về Google Sheets), bảng trước/sau. | Nhóm có sơ đồ để chỉ rõ điểm nghẽn và vị trí AI can thiệp (bước 3).|
+| Problem Statement |Viết PS v0 (mục 5), tổng hợp phản biện từ nhóm và AI, viết PS v1 cùng bảng thay đổi (mục 7). |PS v1 có metric đo được: phân loại đúng ≥ 90%, sửa nhãn ≤ 10%. |
+| Mức can thiệp AI |Mức can thiệp ở mức 30% |Các nhận định chưa có tính xác thực tuyệt đối |
+| Quyết định |	Viết mục 8: đánh giá 4 rủi ro, quyết định Not Yet, 4 bước kiểm chứng, ngưỡng dừng 3/5 người sau 2 tuần. Viết thêm mục 9, 10. |Nhóm có quyết định rõ ràng và kế hoạch kiểm chứng trước khi build. |
 
 ---
 
@@ -154,35 +154,35 @@ Xác định điểm đến (thời gian chưa đo)
 
 | Checkpoint | Tôi dùng AI để làm gì? | AI hữu ích ở đâu? | AI sai hoặc hời hợt ở đâu? | Tôi sửa gì bằng nhận định của mình? |
 |---|---|---|---|---|
-| CP1 Scan | Sau khi tự scan, nhờ AI chọn lọc 5/10 ý theo các lăng kính và biên tập Job Story. | Giúp diễn đạt ngắn gọn, phân biệt tình huống với kết quả mong muốn. | Không biết những pain này đã xảy ra với cá nhân/nhóm nào; các dấu hiệu trong danh sách chỉ là thứ cần đo, không phải dữ liệu. | Giữ các ý từ danh sách mình cung cấp, ghi rõ dấu hiệu chưa xác minh và không trình bày như kết quả khảo sát. |
-| CP2 Problem Card | Nhờ AI phản biện card như một PM hoài nghi, kiểm tra quy trình, bottleneck, metric và mức cần AI. | Chỉ ra chỗ thời lượng không khớp, baseline còn thiếu và bottleneck chưa được chứng minh. | Không thể xác minh các ước tính hoặc chọn thay mình giải pháp/mức AI phù hợp. | Đánh dấu thời lượng là ước tính; để baseline ở trạng thái chưa đo; ghi rõ các giả thuyết cần kiểm chứng và ưu tiên phương án không AI trước. |
-| CP4 Research | | | | |
-| CP5 Quy trình | | | | |
-| CP5–6 Problem Statement | | | | |
-| CP6 Mức can thiệp / quyết định | | | | |
-
----
+| CP1 | Phản biện bảng scan, so với rubric C1| thống kê được một số vấn đề xã hội | Số liệu thống kê chưa được xác thực | Xác thực lại |
+| CP2 | phân tích ưu nhược điểm của các card | Chỉ ra được đặc điểm của các card | một số card đã trùng lặp, một số đặc điểm chưa chính xác | Tìm hiểu thêm các card đó và xóa đi card không hợp lý|
+| Cp4| Thống kê các ứng dụng tương tự đề tài | Thống kê chính xác có gắn link app đó | Chưa làm rõ được các bất cập thực tế của các app đó | Trực tiếp tìm hiểu app đó |
 
 ## 6. Reflection (CP7)
 
 Trả lời bằng trải nghiệm thật của bạn, tối thiểu 200 từ cho các câu 6.1–6.6 (không tính 6.7, câu này được chấm riêng ở tiêu chí C5). **Không dùng AI để viết thay.**
 
 **6.1. Tôi học được gì khi nghe top 3 problems của các bạn khác?**
+Tôi mở rộng được góc nhìn thực tế của bản thân và cách nhìn nhận một vấn đề
 
 **6.2. Nhóm có lúc nào bị "solution-first" (nghĩ giải pháp trước khi hiểu vấn đề) không? Lúc đó nhóm nhận ra và xử lý thế nào?**
-
+Có và khi đó nhóm đã phân tích lại từ đầu để điều chỉnh lại
 **6.3. Tôi có đổi ý sau khi bị phản biện không? Kể một lần cụ thể.**
-
+Tôi có (trong card của tôi). Khi câu hỏi: Người dùng sẽ nắm bắt chất lượng sản phẩm như thế nào. vấn đề ấy quá mức thủ công và tôi đã bỏ đi ý tưởng đó
 **6.4. Kết quả kiểm chứng (phỏng vấn/survey/research) có làm tôi bất ngờ không? Điều gì?**
-
+Kết quả kiểm chứng cho thấy các vấn đề về thao tác người dùng làm tôi bất ngờ.
 **6.5. Điều khó nhất khi viết Problem Statement là gì?**
-
+Problem Statement khó ở chỗ khó chọn lựa ra metric để đo độ chỉ số cần thiết. Nó liên quan tới tiền nhiều nhưng bản chất lại nằm ở kỷ luật.
 **6.6. Nếu làm lại, tôi sẽ đổi gì? Tôi sẽ phản biện nhóm mạnh hơn ở điểm nào?**
-
+Tôi sẽ tập trung hơn ở phần tối ưu thao tác người dùng
 **6.7. Hiểu bài:** giải thích bằng 5–8 câu, không nhìn tài liệu, chuỗi *problem → quy trình → metric → boundary → mức can thiệp AI → quyết định* của bài nhóm mình.
-
----
+Vấn đề của tôi là thường xuyên thiếu 2-3 triệu mỗi tháng do các khoản chi ăn uống nhỏ lẻ không được kiểm soát kịp thời. Quy trình hiện tại chỉ dựa vào thông báo ngân hàng và cộng dồn thủ công nên rất dễ bị bỏ qua. Do đó, tôi đề xuất giải pháp ứng dụng Workflow (chưa cần Agent): dùng LLM để phân loại giao dịch ăn uống với độ chính xác kỳ vọng từ 90% trở lên, kết hợp rule đơn giản để tính tổng và cảnh báo. Ranh giới an toàn được đặt ra là AI chỉ cảnh báo và không can thiệp vào tài khoản. Quyết định hiện tại là "Not Yet" vì cần test thực tế trên 20-30 giao dịch trước để chứng minh độ chính xác và chốt lại ngân sách tuần.
 
 ## 7. Tài liệu tham khảo
-
--
+Bài nhóm, mục 3.2 (phỏng vấn do Cường thực hiện): report/team/group_report.md
+Tài liệu lab: docs/01-worksheet.md, docs/03-international-frameworks.md
+Money Lover: https://moneylover.me/vi
+Timo (Hũ Chi Tiêu): https://timo.vn/
+YNAB: https://www.ynab.com/
+Google PAIR, People + AI Guidebook: https://pair.withgoogle.com/chapter/user-needs/
+Anthropic, Building effective agents: https://www.anthropic.com/research/building-effective-agents
