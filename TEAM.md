@@ -64,3 +64,29 @@ Mỗi thành viên thêm một mục theo mẫu dưới đây, tiêu đề là `
 **Điều mình học được từ phần nhóm:**
 
 - Em hiểu hơn cách đi từ nhiều ý tưởng ban đầu đến một bài toán mà cả nhóm thống nhất lựa chọn. Khi làm Cluster, em thấy các vấn đề khác nhau vẫn có thể có điểm chung về nhu cầu của người dùng. Khi làm OST, em hiểu cơ hội cần tập trung vào khó khăn của người dùng chứ không nên đưa tính năng vào quá sớm. Qua phần chấm điểm, em thấy một ý tưởng mình thích chưa chắc đã là ý tưởng phù hợp nhất với nhóm. Khi làm CP6, em hiểu không phải cứ có AI là cần giao toàn bộ công việc cho AI. Cần xem xét độ phức tạp, độ mơ hồ và rủi ro để chọn mức can thiệp phù hợp. Với bài toán quản lý chi tiêu, AI chỉ hỗ trợ phân loại giao dịch, Rule thực hiện tính toán, còn người dùng vẫn xác nhận và quyết định việc chi tiêu.
+
+### BuiDucTuan-2A202603902
+
+**Phần việc phụ trách:**
+
+- Pitch Problem Card #2 (chi tiêu ăn uống vượt ngân sách), được nhóm chọn làm candidate problem
+- CP5: quy trình trước/sau và Problem Statement v0
+- CP6: Problem Statement v1 và quyết định (4 rủi ro, Not Yet)
+- Mục 9 (hạn chế) và mục 10 (tài liệu tham khảo) trong bài nhóm
+
+**Đóng góp cụ thể** (mình đã làm gì, ra sản phẩm gì):
+
+- Sơ đồ Mermaid quy trình hiện tại (bottleneck bước 4 đến 6) và quy trình tương lai (AI bước 3, HITL bước 4, Rule bước 5, quay về Google Sheets), bảng trước/sau
+- PS v0, tổng hợp phản biện từ nhóm và AI, PS v1 có metric (phân loại đúng ≥ 90%, sửa nhãn ≤ 10%) và bảng thay đổi
+- Đánh giá 4 rủi ro, quyết định Not Yet, kế hoạch kiểm chứng 4 bước, ngưỡng dừng 3/5 người sau 2 tuần
+- Mục 9: liệt kê hạn chế (mẫu phỏng vấn nhỏ, số liệu tự ước, ngưỡng chưa có căn cứ) và hướng tiếp theo; mục 10: tổng hợp 15 tài liệu tham khảo có link
+- Phản biện card của Việt và Cường; góp ý câu hỏi phỏng vấn và cách giải quyết
+
+**Bằng chứng** (phần nào trong `group_report.md`, file nào trong `report/assets/`, commit nào):
+
+- `group_report.md` mục 4.1, 4.2, 4.3, 5, 7 (PS v1 và bảng thay đổi), 8, 9, 10
+- Commit db4d69f, 9bdf31f (bài nhóm); 14d039f, 1eb098c, b9d2a86 (file cá nhân), nhánh `buiductuan`
+
+**Điều mình học được từ phần nhóm:**
+
+- Điều mà mình học được trong buổi hôm nay là trong các ứng dụng/ tính ứng dụng của sản phẩm. Để giải quyết được 1 bài toán và đạt yêu cầu của người dùng không nhất thiết lúc nào cũng gắn liền với AI, nó có thể xử lý nhanh gọn và tiết kiệm hơn nhiều bằng các phương pháp khác.
