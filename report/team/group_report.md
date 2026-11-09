@@ -333,8 +333,39 @@ Vì sao:
 
 ## 9. Hạn chế và hướng tiếp theo
 
--
+**Hạn chế:**
+
+- Kiểm chứng mới có 2 cuộc phỏng vấn chớp nhoáng (1 nhân viên văn phòng, 1 sinh viên năm cuối), là lời tự kể, chưa ghi ngày, kênh và thời lượng. Chưa có survey hay số liệu định lượng.
+- Baseline về số tiền vượt ngân sách (2 đến 3 triệu/tháng) và thời gian tự kiểm tra (~4 phút) chỉ đến từ một người (Tuấn), là số tự ước, chưa đối chiếu bằng sao kê.
+- Chưa kiểm chứng người dùng có sẵn sàng trả phí không (assumption #1, mức bằng chứng 1/5).
+- Chưa thử trực tiếp cảnh báo khi dùng hết 70% ngân sách có làm người dùng chi ít đi không. PV1 là tín hiệu phản bác gián tiếp: biết đã hết tiền nhưng vẫn nạp thêm.
+- Chưa kiểm tra định dạng thông báo của từng ngân hàng, quyền đọc thông báo trên điện thoại, và trường hợp người dùng chi ở nhiều tài khoản.
+- Phần research mới dựa trên trang giới thiệu chính thức của Money Lover, Timo, YNAB, Beeminder; chưa dùng thử để xác nhận tính năng cụ thể (mục 3.3).
+- Các ngưỡng ở mục 7 và 8 (phân loại đúng ≥ 90%, sửa nhãn ≤ 10%, ngưỡng dừng 3/5 người) là đề xuất của nhóm, chưa có căn cứ thực nghiệm.
+
+**Hướng tiếp theo:** làm theo kế hoạch kiểm chứng ở mục 8.2: phỏng vấn thêm ít nhất 3 người theo The Mom Test; thử 2 tuần với 5 người bằng Google Sheets có cảnh báo 70% (không dùng AI); kiểm tra trực tiếp các tool có sẵn; thu 20 thông báo giao dịch thật (đã che số tài khoản) để đánh giá độ khó của bước phân loại. Sau đó dùng ngưỡng dừng ở mục 8.2 để quyết định Go hoặc No-Go.
 
 ## 10. Tài liệu tham khảo
 
--
+**Công cụ và case đã research (mục 3.3):**
+
+- YNAB: https://www.ynab.com/
+- Money Lover: https://moneylover.me/vi
+- Timo (Hũ Chi Tiêu): https://timo.vn/
+- Beeminder: https://www.beeminder.com/
+
+**Framework dùng trong bài:**
+
+- Design Council, Framework for Innovation (Double Diamond): https://www.designcouncil.org.uk/resources/framework-for-innovation/
+- Intercom, How we accidentally invented Job Stories: https://www.intercom.com/blog/accidentally-invented-job-stories/
+- Teresa Torres, Opportunity Solution Trees: https://www.producttalk.org/opportunity-solution-trees/
+- Teresa Torres, The Interview Snapshot: https://www.producttalk.org/interview-snapshot/
+- David Bland, Assumptions Mapping (Strategyzer): https://www.strategyzer.com/library/how-assumptions-mapping-can-focus-your-teams-on-running-experiments-that-matter
+- Rob Fitzpatrick, The Mom Test: https://www.momtestbook.com/
+- Jeff Gothelf, Business Problem Statement (Lean UX): https://jeffgothelf.com/blog/business-problem-statement-opportunity-statement/
+- Google PAIR, People + AI Guidebook, User Needs: https://pair.withgoogle.com/chapter/user-needs/
+- Anthropic, Building effective agents: https://www.anthropic.com/research/building-effective-agents
+- Agrawal, Gans, Goldfarb, A Simple Tool to Start Making Decisions with the Help of AI (AI Canvas, HBR): https://hbr.org/2018/04/a-simple-tool-to-start-making-decisions-with-the-help-of-ai
+- Marty Cagan, The Four Big Risks (SVPG): https://www.svpg.com/four-big-risks/
+
+**Tài liệu lab:** [docs/01-worksheet.md](../../docs/01-worksheet.md), [docs/02-deliverable-example.md](../../docs/02-deliverable-example.md), [docs/03-international-frameworks.md](../../docs/03-international-frameworks.md)
