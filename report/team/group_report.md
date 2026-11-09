@@ -7,8 +7,8 @@
 
 - Tên nhóm: nhom404
 - Thành viên: xem `TEAM.md`
-- Candidate problem được chọn (1 câu): 
-- Quyết định cuối: Go / Not Yet / No-Go
+- Candidate problem được chọn (1 câu): Người dùng, đặc biệt là sinh viên và người trẻ tự quản lý tài chính, gặp khó khăn trong việc theo dõi các khoản chi tiêu ăn uống nhỏ lẻ nên không nắm được số tiền còn lại và dễ vượt ngân sách hàng tháng.
+- Quyết định cuối: Not Yet
 
 ---
 
@@ -77,7 +77,7 @@ Những ý đã gạch bỏ vì là solution đội lốt opportunity:
 
 ## 3. Kiểm chứng + research giải pháp đã có (CP4)
 
-> Phần CP4 dưới đây được tổng hợp từ ghi chú nhóm cung cấp về vấn đề kiểm soát chi tiêu ăn vặt. Cần đối chiếu với candidate đã chọn ở mục 2 trước khi nộp; mục 2 hiện chưa được điền. Hai cuộc phỏng vấn là dữ liệu tự thuật do nhóm ghi nhận, chưa đủ để đại diện cho toàn bộ sinh viên/người đi làm. Ngày và hình thức phỏng vấn cụ thể chưa được ghi lại.
+> Phần CP4 dưới đây được tổng hợp từ ghi chú nhóm cung cấp về vấn đề kiểm soát chi tiêu ăn vặt. Hai cuộc phỏng vấn là dữ liệu tự thuật do nhóm ghi nhận, chưa đủ để đại diện cho toàn bộ sinh viên/người đi làm. Ngày và hình thức phỏng vấn cụ thể chưa được ghi lại.
 
 ### 3.1. Assumption Map
 
@@ -298,7 +298,7 @@ Vì sao: Bài toán có độ mơ hồ trung bình–cao do nội dung giao dị
 | **Success Metric** (baseline → target, cách đo) | (1) Số tiền vượt ngân sách ăn uống/tháng: 2 đến 3 triệu → 0. (2) Thời gian biết số dư tuần: ~4 phút → dưới 30 giây. (3) Thêm cho bước AI: tỉ lệ thông báo được phân loại đúng "ăn uống / khác" ≥ 90%, đo bằng cách người tham gia gắn nhãn tay để đối chiếu trong tuần đầu. (4) Thêm: tỉ lệ khoản người dùng phải sửa nhãn ≤ 10%. Cách đo như v0: sao kê hằng tuần trong 4 tuần pilot |
 | **Boundary** | Như v0, thêm: AI chỉ đọc nội dung thông báo để phân loại, không lưu số tài khoản, không tự cộng khoản không chắc vào ngân sách khi chưa được người dùng xác nhận |
 | **AI intervention point** | Bước 3 của quy trình tương lai (mục 4.2): đọc thông báo ngân hàng dạng văn bản tự do và phân loại khoản đó có phải ăn uống không, kèm độ tin cậy. Cộng dồn và cảnh báo là Rule, không dùng AI |
-| **Mức chọn** | Workflow (các bước định sẵn, AI làm một bước phân loại). Cần khớp với kết luận ở mục 6 |
+| **Mức chọn** | Workflow (các bước định sẵn, AI làm một bước phân loại) |
 | **Rủi ro & người kiểm tra** | Phân loại sai làm lệch số dư: người dùng xác nhận khoản không chắc và sửa nhãn. Cảnh báo không đổi được hành vi (PV1): nhóm đo số lần vẫn chi sau cảnh báo trong pilot. Lộ dữ liệu tài chính: không lưu số tài khoản, không gửi dữ liệu ra ngoài; nhóm kiểm tra log mỗi tuần pilot |
 
 **Thay đổi so với v0 và lý do:**

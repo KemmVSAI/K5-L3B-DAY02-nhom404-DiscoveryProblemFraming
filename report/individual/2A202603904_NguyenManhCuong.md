@@ -116,7 +116,6 @@ Xác định điểm đến (thời gian chưa đo)
   → Di chuyển (thời gian thực tế chưa đo)
   → Chờ đợi/ùn tắc nếu xảy ra (thời lượng, tần suất chưa đo) ← BOTTLENECK CẦN KIỂM CHỨNG
   → Điều chỉnh lịch trình/tuyến (thời lượng chưa đo)
-```
 ### Card muốn pitch nhất
 - Card số: 1.
 - Vì sao: Đây là vấn đề học tập gần với bối cảnh của mình, có thể ghi nhật ký deadline và hỏi sinh viên khác; quy trình có các bước để quan sát. Tuy nhiên, mức độ xảy ra và thời gian hiện vẫn cần đo.
