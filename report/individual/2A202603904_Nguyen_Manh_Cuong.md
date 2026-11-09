@@ -6,11 +6,11 @@
 
 ## 1. Thông tin học viên
 
-- Họ tên:
-- MSSV:
-- Email trường (không bắt buộc, repo có thể để public):
-- Tên nhóm:
-- Link repo nhóm:
+- Họ tên: Nguyễn Mạnh Cường
+- MSSV:2A202603904
+- Email trường (không bắt buộc, repo có thể để public):26ai.cuongnm4@vinuni.edu.vn
+- Tên nhóm: nhom404
+- Link repo nhóm:https://github.com/KemmVSAI/K5-L3B-DAY02-nhom404-DiscoveryProblemFraming
 
 ---
 
