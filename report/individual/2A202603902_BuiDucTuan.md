@@ -164,16 +164,16 @@ HIỆN TẠI (ước lượng): mỗi lỗi ~15–30', 3–4 lỗi/lab
 
 | Hoạt động | Tôi đã làm gì? | Kết quả / ảnh hưởng tới bài nhóm |
 |---|---|---|
-| Pitch Problem Card | | |
-| Phản biện bài của bạn khác | Câu hỏi tôi đã đặt: | |
-| Nhận phản biện | Câu hỏi tôi nhận được: | Tôi đã sửa gì: |
-| Gom cluster / cây OST | | |
-| Chọn candidate problem | | |
-| Kiểm chứng / research | | |
-| Quy trình nhóm | | |
-| Problem Statement | | |
-| Mức can thiệp AI | | |
-| Quyết định | | |
+| Pitch Problem Card | Pitch Card #2 (chi tiêu ăn uống vượt ngân sách) trong 10 phút. | Nhóm đánh giá khả năng và review hết các card, sau đó chọn Card #2 của tôi làm đề tài nhóm. |
+| Phản biện bài của bạn khác | Câu hỏi tôi đã đặt: (1) Hỏi Việt về card "Tổng hợp yêu cầu bài lab": khi đã có thể dùng bot làm thì cần gì thêm, và mục đích thu thập file md là gì? (2) Hỏi Việt về card "Quản lý thay đổi GitHub": tại sao cần một agent để quản lý thay đổi khi GitHub đã có sẵn thông tin commit? (3) Hỏi Cường về card "Quản lý thực phẩm và hạn sử dụng trong gia đình": tại sao cần app/bot khi làm thủ công vẫn tối ưu chi phí và tiện hơn? | Các bạn không trả lời được rõ nhu cầu thật, cuối cùng bỏ card của mình và chọn card của tôi. |
+| Nhận phản biện | Câu hỏi tôi nhận được (từ Việt): "Người dùng có sẵn sàng ghi từng khoản chi không? Vì sao không dùng ứng dụng quản lý chi tiêu hoặc bảng tính?" Tôi trả lời: người dùng không sẵn sàng ghi TỪNG khoản một vì có rất nhiều khoản nhỏ. | Tôi đã sửa gì: bỏ hướng "nhắc người dùng tự ghi chép", chuyển trọng tâm sang tự đọc thông báo giao dịch có sẵn để người dùng không phải nhập tay (PS v0 mục 5, quy trình tương lai mục 4.2). |
+| Gom cluster / cây OST | Tham gia thảo luận cùng nhóm. | Góp ý khi nhóm gom cluster và dựng cây OST (Việt phụ trách chính). |
+| Chọn candidate problem | Bảo vệ Card #2 khi nhóm chấm điểm các card. | Card #2 được chọn làm candidate problem (34/35 điểm). |
+| Kiểm chứng / research | Có góp ý câu hỏi phỏng vấn và cách giải quyết. | Cường phụ trách phỏng vấn, survey, research (mục 3); tôi góp ý câu hỏi và hướng giải quyết. |
+| Quy trình nhóm | Viết mục 4.1 đến 4.3: sơ đồ Mermaid quy trình hiện tại (bottleneck bước 4 đến 6), quy trình tương lai (AI, Rule, HITL, quay về Google Sheets), bảng trước/sau. | Nhóm có sơ đồ để chỉ rõ điểm nghẽn và vị trí AI can thiệp (bước 3). |
+| Problem Statement | Viết PS v0 (mục 5), tổng hợp phản biện từ nhóm và AI, viết PS v1 cùng bảng thay đổi (mục 7). | PS v1 có metric đo được: phân loại đúng ≥ 90%, sửa nhãn ≤ 10%. |
+| Mức can thiệp AI | Việt phụ trách mục 6. Tôi ghi mức Workflow vào PS v1 và đối chiếu để khớp với kết luận mục 6. | Mục 7 và mục 6 dùng cùng một mức, cùng AI intervention point. |
+| Quyết định | Viết mục 8: đánh giá 4 rủi ro, quyết định Not Yet, 4 bước kiểm chứng, ngưỡng dừng 3/5 người sau 2 tuần. Viết thêm mục 9, 10. | Nhóm có quyết định rõ ràng và kế hoạch kiểm chứng trước khi build. |
 
 ---
 
@@ -183,10 +183,10 @@ HIỆN TẠI (ước lượng): mỗi lỗi ~15–30', 3–4 lỗi/lab
 |---|---|---|---|---|
 | CP1 Scan | Phản biện bảng scan, so với rubric C1 (không nhờ gợi ý problem) | Chỉ ra dòng thiếu số liệu, solution trá hình (#4, #5), thiếu "để…", dưới 5 dòng là mất điểm | AI không biết số liệu thật của tôi, chỉ hỏi lại được; không đánh giá được problem nào đáng làm | Tự thêm số liệu từ trải nghiệm thật, bỏ phần giải pháp, tự thêm problem #5 cho lăng kính "Pain từ người khác" |
 | CP2 Problem Card | Phản biện 3 card theo vai "PM hoài nghi" | Bắt được số không khớp (card #1, card #3 với scan), chỉ ra tôi nhảy lên Agent quá sớm, nhắc kiểm tool có sẵn | Gợi ý "tóm tắt thay thì nhớ ít hơn" không đúng với cách tôi học; gợi ý tài khoản riêng là đủ thì tôi đã thử và không hiệu quả | Đổi card #1 sang Workflow, thêm bằng chứng thật cho #1 và #3, thêm boundary cho #3 |
-| CP4 Research | | | | |
-| CP5 Quy trình | | | | |
-| CP5–6 Problem Statement | | | | |
-| CP6 Mức can thiệp / quyết định | | | | |
+| CP4 Research | Không dùng AI (phỏng vấn và ghi chép do nhóm tự làm, đúng quy định CP3, CP4) | Không áp dụng | Không áp dụng | Không áp dụng |
+| CP5 Quy trình | Nhờ Claude soạn nháp mục 4.1 đến 4.3 (sơ đồ Mermaid, bảng trước/sau) từ dữ liệu nhóm đưa | Dựng nhanh sơ đồ, tách rõ bước nào AI, Rule, con người, có đường quay về | AI phản biện chưa đúng và tự ý đoán số thời gian tôi đặt ra | Sửa thêm ở các mục CP1, nói rõ ràng hơn về số thời gian |
+| CP5–6 Problem Statement | Nhờ Claude soạn nháp PS v0, PS v1 và bảng thay đổi, rồi soát theo rubric | Chỉ ra PS v0 còn thiếu metric đo được và AI intervention point | Ngưỡng phân loại đúng ≥ 90%, sửa nhãn ≤ 10% là AI đề xuất, chưa có căn cứ thực nghiệm | Ghi rõ đây là ngưỡng đề xuất (mục 9), chờ nhóm xác nhận |
+| CP6 Mức can thiệp / quyết định | Nhờ Claude soạn nháp mục 8 (rủi ro, quyết định, kế hoạch kiểm chứng) | Gợi ý kiểm chứng bằng Google Sheets trước khi build AI | Ngưỡng dừng 3/5 người sau 2 tuần là AI đề xuất | Giữ quyết định Not Yet, ngưỡng dừng để nhóm chốt lại |
 
 ---
 
@@ -196,20 +196,42 @@ Trả lời bằng trải nghiệm thật của bạn, tối thiểu 200 từ ch
 
 **6.1. Tôi học được gì khi nghe top 3 problems của các bạn khác?**
 
+Sau khi nghe card của Việt và Cường thì tôi thấy có khá là nhiều người đang gặp phải chung 1 vấn đề khi mà 3 option đều đều là liên quan tới việc tự động tóm tắt/thống kê bài giảng.
+
 **6.2. Nhóm có lúc nào bị "solution-first" (nghĩ giải pháp trước khi hiểu vấn đề) không? Lúc đó nhóm nhận ra và xử lý thế nào?**
+
+2 người còn lại cũng đã suýt dính phải việc lạm dụng AI vào hệ thống giống tôi khi chỉ cần một con chatbot hoặc thậm chí chỉ cần làm tay cũng được.
 
 **6.3. Tôi có đổi ý sau khi bị phản biện không? Kể một lần cụ thể.**
 
+Câu hỏi của Việt "người dùng có sẵn sàng ghi từng khoản không" đã khiến tôi chuyển sang hướng tự đọc thông báo do tôi chưa đủ suy xét rằng nếu mà người ta đã có kỷ luật như vậy thì há cớ sao phải dùng một phần mềm kiểm tiêu, vậy nên tôi chuyển hướng sao để cố gắng đánh vào điểm đau của họ hết mức có thể.
+
 **6.4. Kết quả kiểm chứng (phỏng vấn/survey/research) có làm tôi bất ngờ không? Điều gì?**
+
+Theo hai phỏng vấn Cường thực hiện (mục 3.2 bài nhóm): người thứ nhất (nhân viên văn phòng) đã chuyển 1,5 triệu đồng vào MoMo đầu tháng để dành cho ăn vặt, nhưng tới tuần thứ ba hết tiền thì vẫn nạp thêm 500.000 đồng từ MBBank ngay tại quầy, vì "Lúc đó đang đi cùng đồng nghiệp." Người thứ hai (sinh viên năm cuối) tải app Sổ Thu Chi (MISA) nhưng bỏ sau bốn ngày: "Quên nhập 1 ly nước mía xong số dư bị lệch, nản quá bỏ luôn." Một người còn nói rõ chưa từng trả phí cho ứng dụng quản lý tài chính.
+
+Tôi cũng bất ngờ vì chỉ vì quên nhập 1 lần thôi cũng đủ khiến 1 người chán nản và bỏ cuộc, điều này cũng trong dự liệu của tôi nhưng không nghĩ rằng nó ảnh hưởng lớn tới vậy.
 
 **6.5. Điều khó nhất khi viết Problem Statement là gì?**
 
+Problem Statement khó ở chỗ khó chọn lựa ra metric để đo độ chỉ số cần thiết. Nó liên quan tới tiền nhiều nhưng bản chất lại nằm ở kỷ luật.
+
 **6.6. Nếu làm lại, tôi sẽ đổi gì? Tôi sẽ phản biện nhóm mạnh hơn ở điểm nào?**
 
+Nếu làm lại thì tôi sẽ đi đào sâu hơn ở phần đo thời gian thực và kiểm tra các yếu tố ảnh hưởng hơn.
+
 **6.7. Hiểu bài:** giải thích bằng 5–8 câu, không nhìn tài liệu, chuỗi *problem → quy trình → metric → boundary → mức can thiệp AI → quyết định* của bài nhóm mình.
+
+Thường mỗi ngày tôi hay chi nhiều khoản nhỏ cho ăn uống nhưng lại không có để ý số dư tuần còn bao nhiêu, thành ra tháng nào cũng thiếu 2–3 triệu và phải chuyển sang đồ ăn rẻ, kém lành mạnh. Quy trình hiện tại tôi làm chỉ là nhận thông báo ngân hàng rồi tự nhẩm cộng dồn, và bước này thường bị bỏ qua cho tới khi gần hết tiền. Tôi đề xuất để AI làm bước 3, tức phân loại từng khoản chi là ăn uống hay khác, còn việc cộng dồn và cảnh báo thì vẫn là rule đơn giản. Thước đo thành công là AI phải phân loại đúng từ 90% trở lên so với bảng tôi tự gán nhãn tay. Ranh giới an toàn là AI không chặn giao dịch và không chuyển tiền, chỉ phân loại và cảnh báo, còn khoản nào không chắc thì hỏi lại tôi. Chỉ một bước dùng LLM nên đây là mức Workflow, chưa cần tới Agent. Quyết định hiện tại là Not Yet, vì chưa có dữ liệu thật để chứng minh đạt 90% và ngân sách tuần vẫn chưa chốt, nên tôi nghĩ nên test thêm trên 20-30 giao dịch trước rồi mới quyết định.
 
 ---
 
 ## 7. Tài liệu tham khảo
 
--
+- Bài nhóm, mục 3.2 (phỏng vấn do Cường thực hiện): [report/team/group_report.md](../team/group_report.md)
+- Tài liệu lab: [docs/01-worksheet.md](../../docs/01-worksheet.md), [docs/03-international-frameworks.md](../../docs/03-international-frameworks.md)
+- Money Lover: https://moneylover.me/vi
+- Timo (Hũ Chi Tiêu): https://timo.vn/
+- YNAB: https://www.ynab.com/
+- Google PAIR, People + AI Guidebook: https://pair.withgoogle.com/chapter/user-needs/
+- Anthropic, Building effective agents: https://www.anthropic.com/research/building-effective-agents
