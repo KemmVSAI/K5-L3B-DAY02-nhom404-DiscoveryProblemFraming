@@ -134,8 +134,8 @@ HIỆN TẠI (ước lượng): mỗi lỗi ~15–30', 3–4 lỗi/lab
 ### Card muốn pitch nhất
 
 - Card số: #2 (problem #4 trong bảng scan, ngân sách ăn uống)
-- Vì sao:
-- Câu hỏi muốn nhóm phản biện:
+- Vì sao: Card này giải quyết vấn đề tiền bạc, nhất là với những người hay bị cám dỗ và thiếu kiểm soát trong chi tiêu: họ tiêu ở ngoài vì vui nhưng về nhà lại sầu não, rồi lặp lại
+- Câu hỏi muốn nhóm phản biện: "Liệu sẽ có người chấp nhận bỏ tiền ra để kiểm soát tiền khi họ có thể kiểm soát bằng cách không tiêu?"
 
 ### AI đã phản biện card thế nào
 
