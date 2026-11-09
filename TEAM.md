@@ -69,6 +69,7 @@ Mỗi thành viên thêm một mục theo mẫu dưới đây, tiêu đề là `
 - Sơ đồ Mermaid quy trình hiện tại (bottleneck bước 4 đến 6) và quy trình tương lai (AI bước 3, HITL bước 4, Rule bước 5, quay về Google Sheets), bảng trước/sau
 - PS v0, tổng hợp phản biện từ nhóm và AI, PS v1 có metric (phân loại đúng ≥ 90%, sửa nhãn ≤ 10%) và bảng thay đổi
 - Đánh giá 4 rủi ro, quyết định Not Yet, kế hoạch kiểm chứng 4 bước, ngưỡng dừng 3/5 người sau 2 tuần
+- Mục 9: liệt kê hạn chế (mẫu phỏng vấn nhỏ, số liệu tự ước, ngưỡng chưa có căn cứ) và hướng tiếp theo; mục 10: tổng hợp 15 tài liệu tham khảo có link
 - Phản biện card của Việt và Cường; góp ý câu hỏi phỏng vấn và cách giải quyết
 
 **Bằng chứng** (phần nào trong `group_report.md`, file nào trong `report/assets/`, commit nào):
