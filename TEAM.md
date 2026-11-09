@@ -90,3 +90,29 @@ Mỗi thành viên thêm một mục theo mẫu dưới đây, tiêu đề là `
 **Điều mình học được từ phần nhóm:**
 
 - Điều mà mình học được trong buổi hôm nay là trong các ứng dụng/ tính ứng dụng của sản phẩm. Để giải quyết được 1 bài toán và đạt yêu cầu của người dùng không nhất thiết lúc nào cũng gắn liền với AI, nó có thể xử lý nhanh gọn và tiết kiệm hơn nhiều bằng các phương pháp khác.
+
+### Nguyễn Mạnh Cường- 2A202603904
+
+**Phần việc phụ trách:**
+
+-CP4: Assumption map (4–6 giả định)
+Phỏng vấn người thật (mỗi người 1 cuộc, viết snapshot)
+Survey 5–10 người (tuỳ chọn)
+Research 2–3 tool/case có sẵn, kèm link
+nghiên cứu giải pháp
+
+**Đóng góp cụ thể** (mình đã làm gì, ra sản phẩm gì):
+
+-nghiên cứu tài liệu, người dùng xung quanh và những sản phẩm tương tự đã được sử dụng
+- giải pháp cụ thể: Sử dụng hình thức phạt tính phí % khi người dùng chi tiêu quá mức quy đinh. Phần phí đó sẽ được chuyển vào hũ tiết kiệm và sẽ được mở sau khoảng thời gian
+
+**Bằng chứng** (phần nào trong `group_report.md`, file nào trong `report/assets/`, commit nào):
+
+- phần 3. Kiểm chứng + research giải pháp đã có (CP4)
+-commit first commit, cp4
+
+**Điều mình học được từ phần nhóm:**
+
+- Tư duy phân tích vấn đề thay vì lao vào giải pháp
+- Quy trình mà một đề tài được đánh giá là khả thi
+- khả năng làm việc nhóm
